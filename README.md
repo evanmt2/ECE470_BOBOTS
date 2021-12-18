@@ -17,3 +17,15 @@ This repo stores the code for the ECE470 Team BOBOTS project. These source files
 - Connected all added components to allow for basic pick and place operations on simple blocks
 
 *Update 2 Video:* https://youtu.be/7m8aVT873a8
+
+**Final Submission Update:**
+- Tuned block detection parameters to detect blocks more optimally
+- Created URDF files of various additional block colors
+- Updated blob search script to detect new block colors and return multiple sets of keypoints
+- Adjusted move block function to fix precision issues when placing blocks
+- Rewrote main robot logic to identify similar block colors and stack the blocks appropriately
+- Modified block spawning script to randomize block placement within constrained area
+- Added commented code to print relevant data for error analysis
+- Refactored/cleaned code and cleaned up terminal output
+
+*Final Submssion Video:* https://www.youtube.com/watch?v=-Hr9zdLKsNA
